@@ -13,3 +13,6 @@ for extension in file_counts:
 
 for ext, amount in file_counts.items():
     print("There are {} files with the .{} extension".format(amount,ext))
+
+print(file_counts.keys())
+print(file_counts.values())
