@@ -19,3 +19,15 @@ print(file_counts.values())
 
 for value in file_counts.values():
     print(value)
+
+
+def count_letter(text):
+    result = {}
+    for letter in text:
+        if letter not in text:
+            result[letter] = 0 
+        else:
+            result[letter] += 1
+    return result
+
+print(count_letter("bbbbb"))
