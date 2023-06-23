@@ -16,3 +16,6 @@ for ext, amount in file_counts.items():
 
 print(file_counts.keys())
 print(file_counts.values())
+
+for value in file_counts.values():
+    print(value)
